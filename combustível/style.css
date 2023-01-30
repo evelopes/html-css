@@ -1,0 +1,32 @@
+body {
+  width: 100%;
+}
+
+article {
+  width: 50%;
+}
+
+#ponteiro {
+  transform: rotate(5deg);
+  width: 0.01%;
+  padding-right: 12%;
+  background-color: rgb(162, 43, 43);
+  height: 1%;
+  position: absolute;
+  top: 34.5%;
+  left: 18%;
+  border-radius: 15px;
+  transition: 5s;
+}
+
+.painel {
+  position: relative;
+  margin: 0 auto;
+  width: 77%;
+  top: 20%;
+  left: 20%;
+}
+
+#novo {
+  margin-left: 15%;
+}

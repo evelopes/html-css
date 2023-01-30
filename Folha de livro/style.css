@@ -1,0 +1,13 @@
+body{
+    width: 100%; 
+}
+
+main{
+    max-width: 1240px;
+    height: 1754px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 157px 118px 118px;
+    box-sizing: border-box;
+    text-align: justify;
+}

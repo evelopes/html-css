@@ -1,0 +1,24 @@
+body{
+    width: 80%;
+    margin: 50px auto 0;
+}
+
+#jogo{
+    display: grid;
+    grid-template-areas: "superior" "meio" "base";
+    grid-template-columns: auto auto auto;
+    border: solid 5px slateblue;
+    width: 550px;
+}
+
+.casas{
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid slateblue;
+  padding: 20px;
+  font-size: 30px;
+  height: 150px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

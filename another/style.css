@@ -1,0 +1,166 @@
+:root {
+    --picpay: #67b667;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+header {
+    background-color: var(--picpay);
+}
+
+.menu-logo {
+    height: 1.5em;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.menu-principa-links li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+.menu-principa-links li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+.menu-principa-sub {
+    display: none;
+    position: absolute;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.menu-principa-sub:hover {
+    display: inline;
+}
+
+.menu-button{
+    background-color: blue;
+    border-radius: 50px;
+    border: none;
+    width: 120px;
+    padding: 0.5em;
+}
+
+.menu-button-universo {
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    padding: 0.5em 2em;
+}
+
+.menu-button a,
+.menu-button-universo a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.picpayCard-button-universo {
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    width: 290px;
+    padding: 0.5em;
+}
+
+.picpayCard-button-universo a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+.universo,
+.tabu,
+.picpayCard,
+.pagueTudo,
+.pix {
+    display: flex;
+    align-items: center;
+
+}
+
+.universo-conteudo,
+.tabu-conteudo,
+.picpayCard-conteudo,
+.pix-conteudo{
+    width: 50%;
+}
+
+.pagueTudo {
+    padding: 1em 0;
+    justify-content: center;
+}
+
+.picpayCard {
+    background-color: rgb(239, 240, 232);
+}
+
+.universo-conteudo-texto h1 {
+    font-size: 4em;
+    padding-bottom: 0.5em;
+}
+
+.universo-conteudo-texto p, 
+.tabu-conteudo-texto p,
+.picpayCard-conteudo-texto p, .pix-conteudo-texto p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.universo-conteudo-texto,
+.picpayCard-conteudo-texto {
+    padding: 0 2em 0 25%;
+
+}
+
+.tabu-conteudo-texto, .pix-conteudo-texto h1{
+    padding: 0 25% 0 2em;
+
+}
+
+.tabu-conteudo-texto h1, .pix-conteudo-texto h1{
+    font-size: 2.5em;
+}
+
+.picpayCard-conteudo-texto h1{
+    font-size: 2em;
+}
+
+.tabu-conteudo-texto h1,
+.picpayCard-conteudo-texto h1,
+.pagueTudo h1 {
+    color: var(--picpay);
+    padding-bottom: 0.5em;
+}
+
+
+.universo-conteudo-imagem,
+.tabu-conteudo-imagem{
+    width: 100%;
+}
+
+.pix-conteudo-imagem {
+    margin: 0 4em;
+    width: 95%;
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#calculadora {
+    width: 18em;
+    background-color: turquoise;
+    padding: 1em;
+}
+
+input {
+    padding: 1em;
+    width: 5em;
+}
+
+input#display {
+    margin: 0.5em 0 0.5em 0;
+    width: 18.5em;
+}

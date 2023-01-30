@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de combustível</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <article>
+            <div class="fundo">
+                <img src="/combustível/painel.png" class="painel">
+            </div>
+            <div id="ponteiro">
+            </div>
+
+        </article>
+        <article id="novo">
+        <select name="valores" id="valores">
+            <option value="100">Cheio</option>
+            <option value="0.75">Três quartos</option>
+            <option value="0.50">Meio</option>
+            <option value="0.25">Um quarto</option>
+            <option value="0">Vazio</option>
+        </select>
+        <button id="calcular" onclick="mudar()">enviar</button>
+        <button  onclick="totalCombustivel()">combustível</button>
+    </article>
+    </section>
+    <script src="tanque.js"></script>
+    <script src="codigo.js"></script>
+</body>
+
+</html>

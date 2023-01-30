@@ -1,0 +1,6 @@
+
+window[window["TiktokAnalyticsObject"]].instance("C55MG7RG5HFBPDLNR0UG").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true,"auto_email":false,"auto_phone_number":false});
+window[window["TiktokAnalyticsObject"]].instance("C55MG7RG5HFBPDLNR0UG").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C55MG7RG5HFBPDLNR0UG").setPixelInfo({status: 0, name: "PicPay - All Website", advertiserID: "7006408748226854913", setupMode: 1, partner: "", is_onsite: false });
+window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("picpay.com");
+window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig([]);
+window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie && window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie(false);
